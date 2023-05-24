@@ -3,7 +3,6 @@ import { User } from "lucide-react";
 export function SignIn() {
   return (
     <a
-      target="_blank"
       href={`https://github.com/login/oauth/authorize?client_id=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID}`}
       className="flex items-center gap-3 text-left transition-colors hover:text-gray-50"
     >
